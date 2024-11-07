@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
-import Pagination from "@material-ui/lab/Pagination";
+import Pagination from '@mui/lab/Pagination';
 import TutorialDataService from "../services/TutorialService";
 import { useTable } from "react-table";
+//import Pagination from '@mui/lab/Pagination';
+
 
 const TutorialsList = (props) => {
   const [tutorials, setTutorials] = useState([]);
